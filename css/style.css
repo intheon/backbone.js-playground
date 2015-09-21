@@ -1,0 +1,42 @@
+#fixed-top-header h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  display: inline; }
+
+.contact-item, .contact-item img {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: inline-block !important;
+  text-align: center; }
+
+input[type="text"] {
+  padding: 1.6%;
+  outline: none;
+  background: #fcf5f5;
+  border: none;
+  border-bottom: 2px solid #f2d7d7;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  transition: all 0.7s;
+  width: 100%;
+  text-align: center; }
+
+input[type="text"]:focus {
+  border-bottom: 2px solid #cb6464;
+  background: none;
+  letter-spacing: 1px; }
+
+.contact-item {
+  width: 33%;
+  padding: 0.8%;
+  display: inline-block; }
+
+.contact-item img {
+  width: 33%;
+  padding: 0.8%;
+  display: inline-block; }
+
+h3 {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+$colour1: 								#AA3939;
+$colour2:								#AA6C39;
+$padding: 								0.8%;
+$border-radius-amount: 					7px;		
+
+#fixed-top-header h1,h2,h3
+{
+	margin: 							0;
+	padding: 							0;
+	display: 							inline;
+}
+
+%center
+{
+	margin-left: 						auto !important;
+    margin-right: 						auto !important;
+    display:							inline-block !important;
+    text-align:							center;
+}
+
+%text-input-default
+{
+	padding: 							$padding * 2;
+	outline: 							none;
+	background: 						lighten($colour1, 53%);
+	border: 							none;
+	border-bottom: 						2px solid lighten($colour1, 45%);
+	border-top-left-radius: 			$border-radius-amount;
+	border-top-right-radius: 			$border-radius-amount;
+	transition: 						all 0.7s;
+	width: 								100%;
+	text-align: 						center;
+}
+
+input[type="text"]
+{
+	@extend 							%text-input-default;
+}
+
+input[type="text"]:focus
+{
+	border-bottom: 						2px solid lighten($colour1, 15%);
+	background: 						none;
+	letter-spacing: 					1px;
+}
+
+.contact-item
+{
+	width: 								33%;
+	@extend								%center;
+	padding: 							$padding;
+	display: 							inline-block;
+}
+.contact-item img
+{
+	width: 								33%;
+	@extend								%center;
+	padding: 							$padding;
+	display: 							inline-block;
+}
+h3
+{
+	display: 							block;
+}
+
+
